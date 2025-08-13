@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUDGECAT</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+        background: #0a0a0a;
+        overflow-x: hidden;
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        background: rgba(0,0,0,0.8);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    header img {
+        max-height: 80px;
+        animation: fadeIn 2s ease-in-out;
+    }
+    h1, h2, p {
+        animation: fadeIn 2s ease-in-out;
+    }
+    .section {
+        padding: 50px 20px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+    }
+    .buttons a {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 24px;
+        background: #1e90ff;
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        transition: background 0.3s ease;
+    }
+    .buttons a:hover {
+        background: #0d6efd;
+    }
+    footer {
+        text-align: cente
+        
